@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  height: 6%;
+}
+
+header > .logo > img {
+  width: 50%;
+  height: 55%;
+  margin-left: 5%;
+  margin-bottom: -3%;
+}
+
+header > img {
+  width: 5.5%;
+  height: 43%;
+  margin-right: 4%;
+}
+
+header > p {
+  font-size: 1rem;
+  margin-right: 4%;
+  color: #f11075;
+  font-weight: 700;
+}
+
+.container {
+  background-image: url(./imagens/banner-mobile-buser.e1bda3c.png);
+  background-size: 155%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  height: 85%;
+  background-position: bottom;
+}
+
+.container > h1 {
+  margin-top: 6%;
+  margin-left: 9%;
+  margin-right: 5%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.container > p {
+  margin-top: 2%;
+  font-size: 1.18rem;
+  margin-right: 3%;
+  color: #fff;
+}
+
+.caixa {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 53%;
+  margin-top: 3%;
+  border-radius: 7px;
+}
+
+.caixa > p {
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.intermediario {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  border: 1.5px solid #c1c1c1;
+  height: 10.5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 1.5%;
+}
+
+.intermediario > img {
+  width: 5%;
+  height: 40%;
+  margin-left: 2.4%;
+}
+
+input {
+  border: none;
+  margin-left: 3%;
+  font-size: 1rem;
+}
+
+.busca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5%;
+  background-color: #f11075;
+  border: 1px solid #ad1457;
+  width: 93%;
+  height: 10%;
+  margin-left: 3%;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.busca > img {
+  width: 7%;
+  height: 67%;
+}
+
+.busca > p {
+  margin-left: 1%;
+}
+
+.rodape {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-top: 3%;
+  font-size: 0.8rem;
+}
+
+.rodape > li > img {
+  width: 23%;
+  height: 53%;
+}
